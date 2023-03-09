@@ -16,9 +16,15 @@ public class Exercise5 {
     Scanner in = new Scanner(System.in);
     n = in.nextInt();
 
+    for (i = 1; i <= n; i++) {
+      for (j = 1; j <= i; j++) {
+        System.out.print(j);
+      }
+      System.out.println();
+    }
     // Use a for loop with nested loop
     // Use System.out.println to enter next line
     // Use System.out.print to print output, without entering to next line
 
   }
-} 
+}

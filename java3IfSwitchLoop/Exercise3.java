@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 /**
  * Expected Output:
  * 
@@ -28,15 +29,76 @@ public class Exercise3 {
 
     // Complete the switch statement
     switch (month) {
-      case 1:
+      case 1: {
         MonthOfName = "January";
-        // Code here
-      case 2:
+        number_Of_DaysInMonth = 31;
+        break;
+      }
+      case 2: {
         MonthOfName = "February";
-        // The February has 29 days: (Every 4 years and the year cannot divded by 100)
-        // or The year can divided by 400
-        // otherwise the February should have 28 days only
-        // how about other months, December?
+        if (year % 4 == 0) {
+          number_Of_DaysInMonth = 29;
+          break;
+        } else {
+          number_Of_DaysInMonth = 28;
+          break;
+        }
+
+      }
+      case 3: {
+        MonthOfName = "March";
+        number_Of_DaysInMonth = 31;
+        break;
+      }
+      case 4: {
+        MonthOfName = "April";
+        number_Of_DaysInMonth = 30;
+        break;
+      }
+      case 5: {
+        MonthOfName = "May";
+        number_Of_DaysInMonth = 31;
+        break;
+      }
+      case 6: {
+        MonthOfName = "June";
+        number_Of_DaysInMonth = 30;
+        break;
+      }
+      case 7: {
+        MonthOfName = "July";
+        number_Of_DaysInMonth = 31;
+        break;
+      }
+      case 8: {
+        MonthOfName = "August";
+        number_Of_DaysInMonth = 31;
+        break;
+      }
+      case 9: {
+        MonthOfName = "September";
+        number_Of_DaysInMonth = 30;
+        break;
+      }
+      case 10: {
+        MonthOfName = "October";
+        number_Of_DaysInMonth = 31;
+        break;
+      }
+      case 11: {
+        MonthOfName = "November";
+        number_Of_DaysInMonth = 30;
+        break;
+      }
+      case 12: {
+        MonthOfName = "December";
+        number_Of_DaysInMonth = 31;
+        break;
+      }
+      // The February has 29 days: (Every 4 years and the year cannot divded by 100)
+      // or The year can divided by 400
+      // otherwise the February should have 28 days only
+      // how about other months, December?
     }
     System.out.print(MonthOfName + " " + year + " has " + number_Of_DaysInMonth + " days\n");
   }
