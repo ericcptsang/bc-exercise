@@ -60,7 +60,7 @@ public class Exercise6 {
 
     // Upper Part: increasing parttern
     // Think about how to print " " and "*"
-    // and when to new line
+    // and when to new line 
 
     // Lower Part: decreasing parttern
     // Think about how to print " " and "*"

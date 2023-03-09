@@ -71,7 +71,7 @@ public class Exercise1 {
     int reminder = a % b;
     System.out.println("The variable reminder is " + reminder);
 
-    // declare a variable x and assign value to it.
+    // declare a variable x and assign value to it. 
     int e = 7;
     int o = 8;
     int y = 4;

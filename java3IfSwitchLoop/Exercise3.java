@@ -37,7 +37,7 @@ public class Exercise3 {
       case 2: {
         MonthOfName = "February";
         if (year % 4 == 0) {
-          number_Of_DaysInMonth = 29;
+          number_Of_DaysInMonth = 29; 
           break;
         } else {
           number_Of_DaysInMonth = 28;

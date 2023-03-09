@@ -11,7 +11,7 @@ public class Exercise4 {
     int i;
     System.out.println("The first 10 natural numbers are, except 6:");
 
-    // Write a For Loop, skip 6 by if statement
+    // Write a For Loop, skip 6 by if statement 
     for (i = 1; i <= 10; i++) {
       if (i != 6) {
         System.out.print(i);

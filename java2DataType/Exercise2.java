@@ -54,7 +54,7 @@ public class Exercise2 {
     // prints "venturenixlab, java"
     System.out.println(str.toLowerCase());
 
-    // Method Chaining, replaceAll(), toUpperCase(), concat()
+    // Method Chaining, replaceAll(), toUpperCase(), concat() 
     // prints "V*NTUR*NIXLAB, JAVA!!!"
     System.out.println(str.replace("e", "*").toUpperCase().concat("!!!"));
   }
