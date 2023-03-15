@@ -19,6 +19,8 @@ public class Exercise12 {
         // "ModelY"
         Exercise12 myCar2 = new Exercise12(2023, "ModelS");
         // print the expected output
-        System.out.println("Car Year =" + myCar.carYear + ", Car Model =" + myCar.carModel);
+        System.out.println("Car Year=" + myCar.carYear + ", Car Model=" + myCar.carModel);
+        System.out.println("Car Year=" + myCar2.carYear + ", Car Model=" + myCar2.carModel);
+
     }
 }
