@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * do something
  * do something else
@@ -58,5 +61,8 @@ public class Exercise24 {
         c.calculate(200); // JVM auto promote it to int. If int not found, long method will be called
         c.calculate(42768);
         c.calculate((short) 42768); // specific the input data type as short
+
+   
+
     }
 }
