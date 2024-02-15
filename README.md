@@ -1,1 +1,1 @@
-# bc-exercise-eric
+# bc-exercise java
